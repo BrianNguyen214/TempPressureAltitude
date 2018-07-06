@@ -33,7 +33,6 @@ void loop() {
 
   //the sensor read the temperature in Celsius, so you can convert it to Fahrenheit if you want
   //as shown below
-  //a test
 
   tempC = bmp.readTemperature();
   tempF = tempC*1.8 + 32.;
